@@ -1,0 +1,56 @@
+.contenedorPortafolio__separador {
+  height: 90px;
+  width: 100%;
+  background-color: var(--primario);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.contenedorPortafolio__cards {
+  /* background-color: antiquewhite; */
+  width: 80%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 50px;
+}
+
+.cardAplicacion {
+  height: auto;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 35px;
+  background: #e0e0e0;
+  box-shadow: 21px 21px 42px #acacac, -21px -21px 42px #ffffff;
+  font-size: 20px;
+}
+
+.cardAplicacion:nth-child(3) {
+  grid-column: 1 / -1;
+margin-left: auto;
+margin-right: auto;
+}
+
+.aplicacionImg {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.aplicacionPlayStore {
+  height: 40px;
+  padding-top: 20px;
+}

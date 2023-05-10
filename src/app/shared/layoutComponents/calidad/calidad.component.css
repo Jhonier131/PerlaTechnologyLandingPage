@@ -1,0 +1,27 @@
+.contenedorCalidad {
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.contenedorCalidad__titulo {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.contenedorCalidad__titulo h1{
+    padding-right: 60px;
+}
+
+.contenedorCalidad__descripcion {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenedorPortafolio__separador{
+    height: 90px;
+}
