@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { listAplicaciones } from 'src/app/core/data/IDescripcionApp';
 
 @Component({
   selector: 'app-portafolio',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortafolioComponent implements OnInit {
 
+  aplicaciones = listAplicaciones;
+
   constructor() { }
 
   ngOnInit(): void {
+
+    console.log(this.aplicaciones);
   }
 
 }

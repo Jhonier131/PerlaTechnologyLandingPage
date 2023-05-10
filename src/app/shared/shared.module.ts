@@ -6,6 +6,7 @@ import { NavbarComponent } from './layoutComponents/navbar/navbar.component';
 import { HeaderComponent } from './layoutComponents/header/header.component';
 import { CalidadComponent } from './layoutComponents/calidad/calidad.component';
 import { PortafolioComponent } from './customComponents/portafolio/portafolio.component';
+import { CardAppComponent } from './layoutComponents/card-app/card-app.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { PortafolioComponent } from './customComponents/portafolio/portafolio.co
     NavbarComponent,
     HeaderComponent,
     CalidadComponent,
-    PortafolioComponent
+    PortafolioComponent,
+    CardAppComponent
   ],
   imports: [
     CommonModule,
