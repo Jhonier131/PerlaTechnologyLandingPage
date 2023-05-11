@@ -13,7 +13,7 @@ import { SharedModule } from '../../shared/shared.module';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule
+    SharedModule,
   ]
   , schemas: [
     CUSTOM_ELEMENTS_SCHEMA, 

@@ -1,20 +1,19 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { listAplicaciones } from 'src/app/core/data/IDescripcionApp';
+import { IDescripcionApp, listAplicaciones } from 'src/app/core/data/IDescripcionApp';
 
 @Component({
   selector: 'app-portafolio',
   templateUrl: './portafolio.component.html',
-  styleUrls: ['./portafolio.component.css']
+  styleUrls: ['./portafolio.component.css'],
 })
 export class PortafolioComponent implements OnInit {
 
-  aplicaciones = listAplicaciones;
+  aplicaciones: IDescripcionApp[] = [];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-
-    console.log(this.aplicaciones);
+    this.aplicaciones = listAplicaciones.listaDescripcionApp;
+    // console.log(this.aplicaciones);
   }
-
 }

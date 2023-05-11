@@ -8,7 +8,10 @@ import { IDescripcionApp } from 'src/app/core/data/IDescripcionApp';
 })
 export class CardAppComponent implements OnInit {
 
+  public informacionApp : IDescripcionApp;
+
   @Input() set aplicaciones(data: IDescripcionApp){
+    this.informacionApp = data;
     console.log('data >>>>>> ', data);
 
   };

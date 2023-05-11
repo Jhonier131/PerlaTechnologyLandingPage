@@ -7,6 +7,7 @@ import { HeaderComponent } from './layoutComponents/header/header.component';
 import { CalidadComponent } from './layoutComponents/calidad/calidad.component';
 import { PortafolioComponent } from './customComponents/portafolio/portafolio.component';
 import { CardAppComponent } from './layoutComponents/card-app/card-app.component';
+import { FooterComponent } from './layoutComponents/footer/footer.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CardAppComponent } from './layoutComponents/card-app/card-app.component
     HeaderComponent,
     CalidadComponent,
     PortafolioComponent,
-    CardAppComponent
+    CardAppComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +27,8 @@ import { CardAppComponent } from './layoutComponents/card-app/card-app.component
     NavbarComponent,
     HeaderComponent,
     CalidadComponent,
-    PortafolioComponent
+    PortafolioComponent,
+    FooterComponent
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA, 

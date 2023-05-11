@@ -1,0 +1,100 @@
+.contenedorFooter {
+    height: auto;
+    width: 100%;
+    background-color: var(--secundario);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.Footer__titulo h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.Footer__titulo p {
+    font-size: 22px;
+    color: white;
+    padding: 0 400px 40px 400px;
+}
+
+.contactanos__email {
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.contactanos__btnContactar {
+    height: 40px;
+    width: 10%;
+    border-radius: 10px;
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--primario);
+  box-shadow: 0px -19px 52px rgba(0, 0, 0, 0.25);
+
+}
+
+.footer__logo {
+    font-size: 60px;
+    color: white;
+    padding: 40px 0 60px 0;
+}
+
+.footerRedes {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+
+}
+
+.footerRedes img {
+    height: 50px;
+    padding: 0 50px;
+    position: relative;
+    text-align: center;
+    background-color: var(--secundario);
+    transform: translateY(-25px);
+}
+
+
+.informacion__contenedor {
+    width: 50%;
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+.informacionGeneral {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion__contenedor a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__copyright {
+    text-align: center;
+    color: white;
+    padding: 10px 0 40px 0;
+}

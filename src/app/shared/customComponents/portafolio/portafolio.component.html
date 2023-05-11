@@ -1,8 +1,10 @@
 <div class="contenedorPortafolio">
-    <div class="contenedorPortafolio__separador">
-        <h1>Portafolio</h1>
+  <div class="contenedorPortafolio__separador">
+    <h1>Portafolio</h1>
+  </div>
+  <ng-container *ngIf="aplicaciones">
+    <div class="contenedorPortafolio__cards">
+        <app-card-app [aplicaciones]="aplicacion" *ngFor="let aplicacion of aplicaciones"></app-card-app>
     </div>
-    <div class="contenedorPortafolio__cards" *ngFor="let aplicacion of aplicaciones">
-        <app-card-app [aplicaciones]="aplicacion"></app-card-app>
-    </div>
+  </ng-container>
 </div>

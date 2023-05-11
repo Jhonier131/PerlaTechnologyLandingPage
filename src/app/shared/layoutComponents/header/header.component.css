@@ -2,16 +2,22 @@
   background-color: #00a4ff;
   height: 695px;
   width: 100%;
+  overflow: hidden;
+}
+
+.contenedorHeader__img {
+  /* overflow-anchor: hidden; */
 }
 
 .contenedorHeader__img img {
-  position: absolute;
-  width: 1200px;
-  height: 900px;
-  left: 750px;
-  top: 0;
+  position: relative;
+  width: 80%;
+  height: 1000px;
+  left: 800px;
+  top: -2400px;
   box-shadow: 0px -19px 52px rgba(0, 0, 0, 0.25);
   border-radius: 50% 0 0 50%;
+  background-color: #00a4ff;
 }
 
 .contenedorFrease {
@@ -23,15 +29,17 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: 5px 5px 10px #acacac, -1px -1px 4px #acacac;
+
 }
 
 .contenedorFrease h1 {
-  font-size: 40px;
-  width: 60%;
+  font-size: 36px;
+  width: 80%;
   color: #464646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedorHeader__mision {
