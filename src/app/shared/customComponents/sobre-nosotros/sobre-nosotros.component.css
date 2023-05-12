@@ -1,0 +1,12 @@
+.contenedorNosotros__separador {
+    height: 150px;
+    width: 100%;
+    background-color: var(--primario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 10px #acacac, -1px -1px 4px #acacac;
+  }

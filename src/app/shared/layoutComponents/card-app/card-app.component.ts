@@ -13,10 +13,7 @@ export class CardAppComponent implements OnInit {
   @Input() set aplicaciones(data: IDescripcionApp){
     this.informacionApp = data;
     console.log('data >>>>>> ', data);
-
   };
-
-
 
   constructor() { }
 

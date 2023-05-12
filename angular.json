@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "PerlaTechnology"
+    }
+  },
+  "defaultProject": "PerlaTechnology",
+  "cli": {
+    "analytics": false
+  }
 }

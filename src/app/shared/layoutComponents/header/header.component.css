@@ -5,10 +5,6 @@
   overflow: hidden;
 }
 
-.contenedorHeader__img {
-  /* overflow-anchor: hidden; */
-}
-
 .contenedorHeader__img img {
   position: relative;
   width: 80%;

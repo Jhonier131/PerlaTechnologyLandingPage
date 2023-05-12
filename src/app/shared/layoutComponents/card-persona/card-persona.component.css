@@ -1,0 +1,35 @@
+.nosotros__card {
+  display: flex;
+  /* background-color: antiquewhite; */
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.cardImg img {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #acacac, -1px -1px 4px #acacac;
+}
+
+.cardDescripcion {
+  height: 200px;
+  width: 70%;
+  /* background-color: #acacac; */
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 5px 5px 10px #acacac, -1px -1px 4px #acacac;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cardDescripcion h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cardDescripcion p {
+    font-size: 20px;
+}

@@ -14,6 +14,5 @@ export class PortafolioComponent implements OnInit {
 
   ngOnInit(): void {
     this.aplicaciones = listAplicaciones.listaDescripcionApp;
-    // console.log(this.aplicaciones);
   }
 }

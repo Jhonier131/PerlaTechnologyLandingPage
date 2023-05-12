@@ -8,6 +8,8 @@ import { CalidadComponent } from './layoutComponents/calidad/calidad.component';
 import { PortafolioComponent } from './customComponents/portafolio/portafolio.component';
 import { CardAppComponent } from './layoutComponents/card-app/card-app.component';
 import { FooterComponent } from './layoutComponents/footer/footer.component';
+import { CardPersonaComponent } from './layoutComponents/card-persona/card-persona.component';
+import { SobreNosotrosComponent } from './customComponents/sobre-nosotros/sobre-nosotros.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { FooterComponent } from './layoutComponents/footer/footer.component';
     CalidadComponent,
     PortafolioComponent,
     CardAppComponent,
-    FooterComponent
+    FooterComponent,
+    CardPersonaComponent,
+    SobreNosotrosComponent
   ],
   imports: [
     CommonModule,
@@ -28,7 +32,9 @@ import { FooterComponent } from './layoutComponents/footer/footer.component';
     HeaderComponent,
     CalidadComponent,
     PortafolioComponent,
-    FooterComponent
+    FooterComponent,
+    CardPersonaComponent,
+    SobreNosotrosComponent
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA, 

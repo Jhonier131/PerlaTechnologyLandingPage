@@ -1,0 +1,10 @@
+<div class="contenedorNosotros">
+    <div class="contenedorNosotros__separador">
+      <h1>Quienes somos</h1>
+    </div>
+    <ng-container>
+      <div class="contenedorPortafolio__cards">
+          <app-card-persona [personas]="persona"  *ngFor="let persona of personas"></app-card-persona>
+      </div>
+    </ng-container>
+  </div>
