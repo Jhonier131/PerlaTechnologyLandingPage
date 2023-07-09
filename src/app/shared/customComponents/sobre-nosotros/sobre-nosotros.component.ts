@@ -8,13 +8,12 @@ import { IDescripcionPersona, listaPersonas } from 'src/app/core/data/IDescripci
 })
 export class SobreNosotrosComponent implements OnInit {
 
-  personas: IDescripcionPersona[] = [];
+  public personas: IDescripcionPersona[] = [];
 
   constructor() { }
 
   ngOnInit(): void {
     this.personas = listaPersonas.listaDescripcionPersonas;
-    console.log(this.personas)
   }
 
 }

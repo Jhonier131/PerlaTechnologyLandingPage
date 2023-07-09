@@ -2,7 +2,7 @@
   background-color: #00a4ff;
   height: 695px;
   width: 100%;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .contenedorHeader__img img {
@@ -51,6 +51,7 @@
   position: relative;
   z-index: 3;
   bottom: 1550px;
+  left: 50px;
   /* top: 0; */
 }
 
@@ -67,7 +68,6 @@
 }
 
 .circle1:nth-child(1) {
-  /* background-color: #00a4ff; */
   position: relative;
   height: 650px;
   width: 650px;

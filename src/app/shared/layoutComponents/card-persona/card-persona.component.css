@@ -2,7 +2,7 @@
   display: flex;
   /* background-color: antiquewhite; */
   width: 90%;
-  margin: 0 auto;
+  margin: 40px auto;
   justify-content: space-around;
   align-items: center;
 
@@ -16,8 +16,8 @@
 .cardDescripcion {
   height: 200px;
   width: 70%;
-  /* background-color: #acacac; */
-  border-radius: 20px;
+  background: #acacac68;
+  border-radius: 8px;
   padding: 15px;
   box-shadow: 5px 5px 10px #acacac, -1px -1px 4px #acacac;
   display: flex;
@@ -32,4 +32,10 @@
 
 .cardDescripcion p {
     font-size: 20px;
+}
+
+.cardDescripcion__header{
+  display: flex;
+  align-items: flex-end;
+  column-gap: 20px;
 }

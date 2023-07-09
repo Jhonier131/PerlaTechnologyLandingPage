@@ -1,10 +1,12 @@
-<div class="nosotros__card">
+<div class="nosotros__card" *ngFor="let item of informacionPersona">
     <div class="cardImg">
         <img src="../../../../assets/img/calidad.png" alt="">
     </div>
     <div class="cardDescripcion">
-        <h1>{{informacionPersona.nombre}}</h1>
-        <h2>Desarollador web</h2>
-        <p></p>
+        <div class="cardDescripcion__header">
+            <h1>{{item.nombre}}</h1>
+            <h2>{{item.cargo}}</h2>
+        </div>
+        <p>{{item.descripcion}}</p>
     </div>
 </div>

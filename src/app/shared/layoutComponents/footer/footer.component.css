@@ -25,7 +25,7 @@
 .Footer__titulo p {
     font-size: 22px;
     color: white;
-    padding: 0 400px 40px 400px;
+    padding: 0 260px 40px 260px;
 }
 
 .contactanos__email {
@@ -56,11 +56,10 @@
 }
 
 .footerRedes {
-    height: 5px;
+    height: 3px;
     width: 100%;
     background-color: white;
     text-align: center;
-
 }
 
 .footerRedes img {
@@ -86,6 +85,16 @@
 .informacionGeneral {
     display: flex;
     flex-direction: column;
+}
+
+.informacionGeneral img{
+    height: 20px;
+    padding-right: 10px;
+    filter: invert(1);
+}
+.informacionGeneral a{
+    display: flex;
+    align-items: center;
 }
 
 .informacion__contenedor a {

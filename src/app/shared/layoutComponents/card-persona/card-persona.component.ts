@@ -10,14 +10,16 @@ export class CardPersonaComponent implements OnInit {
 
   public informacionPersona: IDescripcionPersona;
 
-  @Input() set persona( data: IDescripcionPersona){
+  @Input() set personas( data: IDescripcionPersona){
     this.informacionPersona = data;
-    console.log('vela', this.informacionPersona);
   }
 
   constructor() { }
 
   ngOnInit(): void {
+  
+    console.log('vela', this.informacionPersona);
+
   }
 
 }
